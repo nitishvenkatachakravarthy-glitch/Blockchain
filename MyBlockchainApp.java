@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-// ===================== BLOCK CLASS =====================
+// ===================== BLOCK_CLASS =====================
 class Block {
     private String hash;
     private String previousHash;
@@ -71,7 +71,7 @@ class Block {
     }
 }
 
-// ===================== BLOCKCHAIN CLASS =====================
+// ===================== BLOCK_CHAIN CLASS =====================
 class Blockchain {
     private List<Block> chain;
     private int difficulty;
@@ -123,7 +123,7 @@ class Blockchain {
     }
 }
 
-// ===================== MAIN APP CLASS =====================
+// ===================== MAIN CLASS =====================
 public class MyBlockchainApp {
     public static void main(String[] args) {
         int difficulty = 4; 
